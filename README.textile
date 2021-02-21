@@ -7,7 +7,7 @@ h2. Installation
 Texbox requires Textpattern v. 4.7 or higher, and can be installed as follows: 
 
 # Place the entire @Texbox@ folder in the @themes@ folder of your textpattern directory.
-# Go to "Presentation › Themes":https://docs.textpattern.com/administration/themes-panel and import the Texbox theme from the drop-down.
+# Go to "Presentation › Themes":https://docs.textpattern.com/administration/themes-panel and import the Texbox theme from the drop-down menue.
 # Go to "Presentation › Sections":https://docs.textpattern.com/administration/sections-panel and switch the theme used to "Texbox".
 # Install and activate the "true_tags":https://www.rainskit.com/reference/537/tru_tags-releases plugin
 
