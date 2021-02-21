@@ -1,0 +1,26 @@
+
+h1. txp-next
+
+The "NexT":https://github.com/next-theme theme for "Hexo":https://github.com/hexojs/hexo, 
+ported to "Textpattern CMS":http://textpattern.com.
+
+"NexT":https://github.com/next-theme is a popular blogging theme for 
+the "Hexo":https://github.com/hexojs/hexo blogging 
+framework. This port allows the use of NexT with the
+"Textpattern":http://textpattern.com CMS including the use of the
+"Textile":https://textile-lang.com/ markup languague,
+while retaining NexT's elegant design.
+
+
+txp-next works on Textpattern 4.8.x. 
+
+# Place the entire @txp-next@ folder in the @themes@ folder of your textpattern directory.
+# Go to "Presentation › Themes":https://docs.textpattern.com/administration/themes-panel and 
+import the txp-next theme from the drop-down.
+# Go to "Presentation › Sections":https://docs.textpattern.com/administration/sections-panel 
+and switch the theme used to "txp-next".
+# Install the "true_tags":https://www.rainskit.com/reference/537/tru_tags-releases plugin
+
+h2. Changelog
+
+* *v0.1* – Initial release
