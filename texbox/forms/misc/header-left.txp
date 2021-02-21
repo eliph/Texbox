@@ -29,9 +29,9 @@
   <ul class="main-menu menu">
     <li class="menu-item menu-item-home"><a href="<txp:site_url />" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li>
     <li class="menu-item menu-item-tags"><a href="<txp:site_url />tag/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a></li>
-    <li class="menu-item menu-item-categories"><a href="<txp:site_url />categories/" rel="section"><i class="fa fa-th fa-fw"></i>Kategorien</a></li>
-    <li class="menu-item menu-item-archives"><a href="<txp:site_url />archive/" rel="section"><i class="fa fa-archive fa-fw"></i>Archiv</a></li>
-    <li class="menu-item menu-item-links"><a href="<txp:site_url />links" rel="section">Links</a></li>
+    <li class="menu-item menu-item-categories"><a href="<txp:site_url />categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a></li>
+    <li class="menu-item menu-item-archives"><a href="<txp:site_url />archive/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a></li>
+    <li class="menu-item menu-item-archives"><a href="<txp:site_url />search/" rel="section"><i class="fa fa-search fa-fw"></i>Search</a></li>
   </ul>
 </nav>
 

@@ -1,41 +1,53 @@
 <txp:output_form form="header" />
 <txp:output_form form="header-left" />
 
-<div class="main-inner post posts-expand">
-<div class="post-block">
-
 <txp:if_section name="tag">
   <txp:tru_tags_handler />
 <txp:else />
 
 <txp:if_category>
+
+<div class="main-inner archive posts-collapse">
+   <div class="post-block">
+      <div class="post-content">
+
    <header class="post-header">
-     <h1 class="post-title" itemprop="name headline">
-        Kategorie: <txp:category title="1" />
-     </h1><hr />
+      <h1 class="post-title" itemprop="name headline">
+         <txp:category title="1" />
+      </h1>
    </header>
-   <txp:article_custom category='<txp:category />' sort="Title asc" break="li" limit="100">
-   <txp:permlink>
-      <txp:title />
-   </txp:permlink>
-   </txp:article_custom>
+   <txp:output_form form="article-archive" />
+
+      </div>
+   </div>
+</div>
+
 <txp:else />
+
+<div class="main-inner post posts-expand">
+<div class="post-block">
+
    <header class="post-header">
      <h1 class="post-title" itemprop="name headline">
-        Kategorien
+        Categories
      </h1><hr />
    </header>
-   <txp:category_list children="0" wraptag="ul" break="" sort="name">
-      <h2><txp:category title="1" link="0" /></h2>
-      <txp:category_list parent='<txp:category />' exclude='<txp:category />' wraptag="ul" break="" class="subcat_list" sort="name">
+   <txp:category_list type="article" children="0" wraptag="ul" break="" sort="name">
+   <txp:variable name="cat-has-article"><txp:article_custom category='<txp:category />' limit="1" /></txp:variable>
+      <txp:if_variable name="cat-has-article" value="">
+      <txp:else />
+      <h2><txp:category title="1" link="1" /></h2>
+      <txp:category_list type="article" parent='<txp:category />' exclude='<txp:category />' wraptag="ul" break="" class="subcat_list" sort="name">
          <b><txp:category title="1" link="1" wraptag="p" /></b>
       </txp:category_list>
+   </txp:if_variable>
    </txp:category_list>
-</txp:if_category>
-
-</txp:if_section>
 
 </div> <!-- inner post posts-expand -->
 </div> <!-- post-block -->
+
+</txp:if_category>
+
+</txp:if_section>
 
 <txp:output_form form="footer" />

@@ -1,5 +1,5 @@
 <txp:output_form form="header" />
-<txp:output_form form="hex-left" />
+<txp:output_form form="header-left" />
 
 <div class="main-inner post posts-expand">
 <div class="post-block">

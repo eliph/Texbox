@@ -1,23 +1,21 @@
 <txp:output_form form="header" />
-<txp:output_form form="hex-left" />
+<txp:output_form form="header-left" />
 
 <div class="main-inner post posts-expand">
 <div class="post-block">
 
-<txp:output_form form="hex-article-head" />
+<txp:output_form form="article-head" />
 
     <div class="post-body" itemprop="articleBody">
 
-   <txp:excerpt />
-   <txp:body />
-
-<txp:else />
-<h2>Accesss denied</h2>
-</txp:nb_if_intern>
+    <txp:output_form form="article-comments" />
+    <txp:excerpt />
+    <txp:body />
+    <txp:output_form form="comments_display" />
 
     </div> <!-- post-body -->
 
-<txp:output_form form="hex-article-foot" />
+<txp:output_form form="article-foot" />
 
 </div> <!-- inner post posts-expand -->
 </div> <!-- post-block -->
