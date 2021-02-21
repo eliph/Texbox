@@ -24,6 +24,11 @@ h2. Demo
 
 A demo site for "Textbox" is "provided":https://texbox-blog.de
 
+h2. Limitations
+
+* Search has not been implemented
+* Plugin @true_tags@ will throw an error if testmode is activated in the admin panel. No error if live mode is on.
+
 h2. Changelog
 
 * *v0.1* – Initial release
