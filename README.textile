@@ -7,11 +7,15 @@ h2. Installation
 Texbox works on Textpattern 4.8.x. 
 
 # Place the entire @Texbox@ folder in the @themes@ folder of your textpattern directory.
-# Go to "Presentation › Themes":https://docs.textpattern.com/administration/themes-panel and 
-import the Texbox theme from the drop-down.
-# Go to "Presentation › Sections":https://docs.textpattern.com/administration/sections-panel 
-and switch the theme used to "Texbox".
+# Go to "Presentation › Themes":https://docs.textpattern.com/administration/themes-panel and import the Texbox theme from the drop-down.
+# Go to "Presentation › Sections":https://docs.textpattern.com/administration/sections-panel and switch the theme used to "Texbox".
 # Install the "true_tags":https://www.rainskit.com/reference/537/tru_tags-releases plugin
+
+h2. Licence
+
+Texbox is published under the "MIT licence":https://opensource.org/licenses/mit-license.php
+
+The "hexo-theme-next licence":https://github.com/next-theme/hexo-theme-next/blob/master/LICENSE.md requires that A covered work must retain «NexT» official website link (https://theme-next.js.org) in footer section of every website created, modified or manipulated by using «NexT».
 
 h2. Changelog
 
