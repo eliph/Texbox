@@ -1,4 +1,4 @@
-h1. Texbox Theme for Textpattern
+h1. Texbox: The NexT theme for Textpattern
 
 "Texbox":https://github.com/eliph/Texbox is a port of the popular "NexT":https://github.com/next-theme theme for "Hexo":https://github.com/hexojs/hexo, to be used with "Textpattern":http://textpattern.com.
 
