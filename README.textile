@@ -11,7 +11,7 @@ Texbox requires Textpattern v. 4.7 or higher, and can be installed as follows:
 # Go to "Presentation › Sections":https://docs.textpattern.com/administration/sections-panel and switch the theme used to "Texbox".
 # Go to "Admin › Preferences":https://docs.textpattern.com/administration/preferences-panel and set @Article URL pattern@ to @/section/category/title@
 # Go to "Presentation › Sections":https://docs.textpattern.com/administration/sections-panel, make sections @categories@, @tag@ and @archive@. Then link them to the respective pages @categories@, @tags@ and @archive@. Also link the @articles@ section to @articles@.
-# Go to "Admin › Plugins":https://docs.textpattern.com/administration/plugins-panel and install and activate the "true_tags":https://www.rainskit.com/reference/537/tru_tags-releases plugin
+# Go to "Admin › Plugins":https://docs.textpattern.com/administration/plugins-panel and install the "true_tags":https://forum.textpattern.com/viewtopic.php?pid=324007#p324007 plugin v. 3.9.2. Then activate the plugin.
 
 h2. Licence
 
