@@ -3,7 +3,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Oh Mero">
+      <meta itemprop="name" content="Texbox">
       <meta itemprop="description" content="">
     </span>
 
@@ -35,13 +35,15 @@
       <time title="Modified: <txp:modified format="%m-%d-%Y %T" />" itemprop="dateModified" datetime="<txp:modified format="%Y-%m-%dT%T" />"><txp:modified format="%m-%d-%Y" /></time>
     </span>
 
+<txp:category title="1" link="1" wraptag="p" />
+
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="<txp:site_url />categories/<txp:category1 title="0" />/" itemprop="url" rel="index"><span itemprop="name"><txp:category1 title="1" /></span></a>
+          <a href="<txp:site_url />categories/?c=<txp:category1 />" itemprop="url" rel="index"><span itemprop="name"><txp:category1 title="1" /></span></a>
         </span>
     </span>
 

@@ -60,39 +60,11 @@
         <div class="post-toc-wrap sidebar-panel">
         </div>
         <!--/noindex-->
-
         <div class="site-overview-wrap sidebar-panel">
-
-<txp:thumbnail id="1" />
-
-<txp:hide>
-<div class="site-state-wrap site-overview-item animated">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count"><txp:article_custom pgonly><txp:yield item="count" /></txp:article_custom></span>
-          <span class="site-state-item-name">posts</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-          
-        <span class="site-state-item-count">9</span>
-        <span class="site-state-item-name">categories</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-          
-        <span class="site-state-item-count">39</span>
-        <span class="site-state-item-name">tags</span></a>
-      </div>
-  </nav>
-</div>
-</txp:hide>
-
+        <a href="https://github.com/eliph/Texbox"><txp:thumbnail id="1" /></a>
         </div>
       </div>
+
     </div>
   </aside>
   <div class="sidebar-dimmer"></div>

@@ -1,10 +1,6 @@
 <txp:output_form form="header" />
 <txp:output_form form="header-left" />
 
-<txp:if_section name="tag">
-  <txp:tru_tags_handler />
-<txp:else />
-
 <txp:if_category>
 
 <div class="main-inner archive posts-collapse">
@@ -32,13 +28,12 @@
         Categories
      </h1><hr />
    </header>
-   <txp:category_list type="article" children="0" wraptag="ul" break="" sort="name">
-   <txp:variable name="cat-has-article"><txp:article_custom category='<txp:category />' limit="1" /></txp:variable>
-      <txp:if_variable name="cat-has-article" value="">
+
+   <txp:category_list children="0" wraptag="ul" break="" sort="name">
+   <txp:variable name="cat-has-article"><txp:article_custom category='<txp:category />' pageby="1" pgonly status /></txp:variable>
+      <txp:if_variable name="cat-has-article" value="0">
       <txp:else />
       <h2><txp:category title="1" link="1" /></h2>
-      <txp:category_list type="article" parent='<txp:category />' exclude='<txp:category />' wraptag="ul" break="" class="subcat_list" sort="name">
-         <b><txp:category title="1" link="1" wraptag="p" /></b>
       </txp:category_list>
    </txp:if_variable>
    </txp:category_list>
@@ -47,7 +42,5 @@
 </div> <!-- post-block -->
 
 </txp:if_category>
-
-</txp:if_section>
 
 <txp:output_form form="footer" />
