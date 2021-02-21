@@ -1,18 +1,18 @@
-h1. TxpNexT Theme for Textpattern
+h1. Texbox Theme for Textpattern
 
-This is a port of the popular "NexT":https://github.com/next-theme theme for "Hexo":https://github.com/hexojs/hexo, for to "Textpattern":http://textpattern.com.
+Texbox is a port of the popular "NexT":https://github.com/next-theme theme for "Hexo":https://github.com/hexojs/hexo, for to "Textpattern":http://textpattern.com.
 
 "NexT":https://github.com/next-theme is a blogging theme for the "Hexo":https://github.com/hexojs/hexo blogging framework. This port allows the use of "NexT":https://github.com/next-theme with the "Textpattern":http://textpattern.com CMS including the use of the "Textile":https://textile-lang.com/ markup languague, while retaining "NexT":https://github.com/next-theme's elegant design.
 
 h2. Installation
 
-TxpNexT works on Textpattern 4.8.x. 
+Texbox works on Textpattern 4.8.x. 
 
-# Place the entire @TxpNexT@ folder in the @themes@ folder of your textpattern directory.
+# Place the entire @Texbox@ folder in the @themes@ folder of your textpattern directory.
 # Go to "Presentation › Themes":https://docs.textpattern.com/administration/themes-panel and 
-import the TxpNexT theme from the drop-down.
+import the Texbox theme from the drop-down.
 # Go to "Presentation › Sections":https://docs.textpattern.com/administration/sections-panel 
-and switch the theme used to "TxpNexT".
+and switch the theme used to "Texbox".
 # Install the "true_tags":https://www.rainskit.com/reference/537/tru_tags-releases plugin
 
 h2. Changelog
