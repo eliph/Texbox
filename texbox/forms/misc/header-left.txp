@@ -63,7 +63,7 @@
 
         <div class="site-overview-wrap sidebar-panel">
 
-<txp:image id="1" />
+<txp:thumbnail id="1" />
 
 <txp:hide>
 <div class="site-state-wrap site-overview-item animated">
@@ -102,4 +102,3 @@
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
-

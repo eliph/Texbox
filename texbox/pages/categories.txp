@@ -1,10 +1,8 @@
 <txp:output_form form="header" />
-<txp:output_form form="hex-left" />
+<txp:output_form form="header-left" />
 
 <div class="main-inner post posts-expand">
 <div class="post-block">
-
-<txp:nb_if_intern>
 
 <txp:if_section name="tag">
   <txp:tru_tags_handler />
@@ -36,11 +34,6 @@
 </txp:if_category>
 
 </txp:if_section>
-
-<txp:else />
-<h2><txp:site_name /></h2>
-<h2>Accesss denied</h2>
-</txp:nb_if_intern>
 
 </div> <!-- inner post posts-expand -->
 </div> <!-- post-block -->

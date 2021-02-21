@@ -8,8 +8,6 @@
 
     <div class="post-body" itemprop="articleBody">
 
-<txp:nb_if_intern>
-
    <txp:excerpt />
    <txp:body />
 

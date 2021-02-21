@@ -1,5 +1,5 @@
 <txp:output_form form="header" />
-<txp:output_form form="hex-left" />
+<txp:output_form form="header-left" />
 
 <div class="main-inner archive posts-collapse">
    <div class="post-block">
@@ -10,8 +10,6 @@
       Archiv
    </h1>
 </header>
-
-<txp:nb_if_intern>
 
 <txp:article_custom fields="year(posted)" limit="99" wraptag=" " break="" sort="Posted desc" >
    <txp:if_different test='<txp:posted format="%Y" />' >
@@ -38,11 +36,6 @@
    </article>
 
 </txp:article_custom>
-
-
-<txp:else />
-   <h2>Accesss denied</h2>
-</txp:nb_if_intern>
 
       </div>
    </div>

@@ -1,10 +1,8 @@
 <txp:output_form form="header" />
-<txp:output_form form="hex-left" />
+<txp:output_form form="header-left" />
 
 <div class="main-inner post posts-expand">
 <div class="post-block">
-
-<txp:nb_if_intern>
 
 <txp:tru_tags_if_tag_search>
    <header class="post-header">
@@ -26,8 +24,6 @@
    <txp:tru_tags_handler form="article-list-titles" wraptag="" break="&nbsp;&nbsp;" limit="100" />
 
 </txp:tru_tags_if_tag_search>
-
-</txp:nb_if_intern>
 
 </div> <!-- inner post posts-expand -->
 </div> <!-- post-block -->
