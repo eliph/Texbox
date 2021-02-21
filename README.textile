@@ -15,7 +15,7 @@ h2. Licence
 
 "Texbox":https://github.com/eliph/Texbox is published under the "MIT licence":https://opensource.org/licenses/mit-license.php
 
-The "hexo-theme-next licence":https://github.com/next-theme/hexo-theme-next/blob/master/LICENSE.md requires that a covered work must retain «NexT» official website link (https://theme-next.js.org) in footer section of every website created, modified or manipulated by using «NexT».
+The "hexo-theme-next licence":https://github.com/next-theme/hexo-theme-next/blob/master/LICENSE.md requires that a covered work must retain «NexT» official website link (https://theme-next.js.org) in the footer section of every website created, modified or manipulated by using «NexT».
 
 h2. Demo
 
