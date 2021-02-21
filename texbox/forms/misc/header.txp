@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="<txp:lang />" dir="<txp:text item="lang_dir" />">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>
+     <txp:page_title />
+  </title>
+  <meta name="description" content="Texbox theme">
+  <meta name="author" content="Texbox author">
+
+  <!-- Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+  <meta name="googlebot" content="noindex, nofollow" />
+  <meta name="bingbot" content="noindex, nofollow" />
+  <meta name="msnbot" content="noindex, nofollow" />
+  <meta name="slurp" content="noindex, nofollow" />
+
+  <!-- FONT
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/css/all.min.css">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <txp:css format="link" media="" name="hexo" />
+  <txp:css format="link" media="" name="omerodoc" />
+
+  <!-- Javascript
+  <script src="/js/jquery-3.5.1.min.js"></script>
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="img/favicon.ico">
+
+</head>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->

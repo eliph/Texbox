@@ -1,0 +1,27 @@
+<txp:output_form form="header" />
+<txp:output_form form="hex-left" />
+
+<div class="main-inner post posts-expand">
+<div class="post-block">
+
+<txp:output_form form="hex-article-head" />
+
+    <div class="post-body" itemprop="articleBody">
+
+<txp:nb_if_intern>
+
+   <txp:excerpt />
+   <txp:body />
+
+<txp:else />
+<h2>Accesss denied</h2>
+</txp:nb_if_intern>
+
+    </div> <!-- post-body -->
+
+<txp:output_form form="hex-article-foot" />
+
+</div> <!-- inner post posts-expand -->
+</div> <!-- post-block -->
+
+<txp:output_form form="footer" />

@@ -1,0 +1,25 @@
+<txp:output_form form="header" />
+<txp:output_form form="hex-left" />
+
+<div class="main-inner post posts-expand">
+<div class="post-block">
+
+<header class="post-header">
+   <h2 class="post-title" itemprop="name headline">
+      Links
+   </h2><hr>
+</header>
+
+<txp:nb_if_intern>
+<h3>Allgemeine Links</h3>
+   <txp:linklist category="menu" wraptag="ul" break="li" >
+      <txp::media_ext url='<txp:link_url />' txt='<txp:link_name />' />
+   </txp:linklist>
+<txp:else />
+   <h2>Accesss denied</h2>
+</txp:nb_if_intern>
+
+</div> <!-- inner post posts-expand -->
+</div> <!-- post-block -->
+
+<txp:output_form form="footer" />
