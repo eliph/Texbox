@@ -2,7 +2,7 @@ h1. TxpNexT Theme for Textpattern
 
 This is a port of the popular "NexT":https://github.com/next-theme theme for "Hexo":https://github.com/hexojs/hexo, for to "Textpattern":http://textpattern.com.
 
-"NexT":https://github.com/next-theme is a popular blogging theme for the "Hexo":https://github.com/hexojs/hexo blogging framework. This port allows the use of "NexT":https://github.com/next-theme with the "Textpattern":http://textpattern.com CMS including the use of the "Textile":https://textile-lang.com/ markup languague, while retaining "NexT":https://github.com/next-theme's elegant design.
+"NexT":https://github.com/next-theme is a blogging theme for the "Hexo":https://github.com/hexojs/hexo blogging framework. This port allows the use of "NexT":https://github.com/next-theme with the "Textpattern":http://textpattern.com CMS including the use of the "Textile":https://textile-lang.com/ markup languague, while retaining "NexT":https://github.com/next-theme's elegant design.
 
 h2. Installation
 
