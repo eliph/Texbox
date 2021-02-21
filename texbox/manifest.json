@@ -1,8 +1,8 @@
 {
-    "title": "Minimum",
-    "version": "1.4",
-    "description": "Minimum theme for Textpattern CMS",
-    "author": "Stephan Hochaus",
-    "author_uri": "https://github.com/yauh/txp-minimum",
+    "title": "Texbox",
+    "version": "0.1",
+    "description": "A NexT theme port for Textpattern CMS",
+    "author": "eliph",
+    "author_uri": "https://github.com/eliph/Texbox",
     "txp-type": "textpattern-theme"
 }
