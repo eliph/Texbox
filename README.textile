@@ -1,5 +1,4 @@
-
-h2. txp-next Theme for Textpattern
+h1. txp-next Theme for Textpattern
 
 The "NexT":https://github.com/next-theme theme for "Hexo":https://github.com/hexojs/hexo, ported to "Textpattern CMS":http://textpattern.com.
 
