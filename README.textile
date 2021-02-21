@@ -1,8 +1,6 @@
 h1. Texbox: A NexT theme port for Textpattern
 
-"Texbox":https://github.com/eliph/Texbox is a port of the popular "NexT":https://github.com/next-theme theme for "Hexo":https://github.com/hexojs/hexo, to be used with "Textpattern":http://textpattern.com.
-
-"NexT":https://github.com/next-theme is a blogging theme for the "Hexo":https://github.com/hexojs/hexo blogging framework. "Texbox":https://github.com/eliph/Texbox  allows the use of "NexT":https://github.com/next-theme with the "Textpattern":http://textpattern.com CMS including the use of the "Textile":https://textile-lang.com/ markup languague, while retaining "NexT":https://github.com/next-theme's elegant design.
+"NexT":https://github.com/next-theme is a popular blogging theme for the "Hexo":https://github.com/hexojs/hexo blogging framework, and "Texbox":https://github.com/eliph/Texbox provides an portation of the "NexT":https://github.com/next-theme to the  "Textpattern":http://textpattern.com CMS including the use of the "Textile":https://textile-lang.com/ markup languague, while retaining "NexT":https://github.com/next-theme's elegant design.
 
 h2. Installation
 
