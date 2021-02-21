@@ -1,16 +1,9 @@
 
-h1. txp-next
+h1. txp-next Theme for Textpattern
 
-The "NexT":https://github.com/next-theme theme for "Hexo":https://github.com/hexojs/hexo, 
-ported to "Textpattern CMS":http://textpattern.com.
+The "NexT":https://github.com/next-theme theme for "Hexo":https://github.com/hexojs/hexo, ported to "Textpattern CMS":http://textpattern.com.
 
-"NexT":https://github.com/next-theme is a popular blogging theme for 
-the "Hexo":https://github.com/hexojs/hexo blogging 
-framework. This port allows the use of NexT with the
-"Textpattern":http://textpattern.com CMS including the use of the
-"Textile":https://textile-lang.com/ markup languague,
-while retaining NexT's elegant design.
-
+"NexT":https://github.com/next-theme is a popular blogging theme for the "Hexo":https://github.com/hexojs/hexo blogging framework. This port allows the use of NexT with the "Textpattern":http://textpattern.com CMS including the use of the "Textile":https://textile-lang.com/ markup languague, while retaining NexT's elegant design.
 
 txp-next works on Textpattern 4.8.x. 
 
