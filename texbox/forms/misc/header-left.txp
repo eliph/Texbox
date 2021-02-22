@@ -15,6 +15,7 @@
     <a href="<txp:site_url />" class="brand" rel="start">
       <i class="logo-line"></i>
       <h1 class="site-title"><txp:site_name /></h1>
+      <h1 class="site-subtitle"><txp:site_slogan /></h1>
       <i class="logo-line"></i>
     </a>
   </div>
