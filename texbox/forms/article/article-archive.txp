@@ -1,4 +1,4 @@
-<txp:article_custom category='<txp:category />' fields="year(posted)" limit="100" wraptag=" " break="" sort="Posted desc" >
+<txp:article_custom category='<txp:category />' exclude category="about" fields="year(posted)" limit="100" wraptag=" " break="" sort="Posted desc" >
    <txp:if_different test='<txp:posted format="%Y" />' >
       <div class="collection-year">
          <span class="collection-header"><txp:posted format="%Y" /></span>

@@ -46,6 +46,7 @@
     <li class="menu-item menu-item-tags"><a href="<txp:site_url />tag/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a></li>
     <li class="menu-item menu-item-categories"><a href="<txp:site_url />categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories&nbsp;<span class="badge"><txp:variable name="cat_count" /></span></a></li>
     <li class="menu-item menu-item-archives"><a href="<txp:site_url />archive/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives&nbsp;<span class="badge"><txp:article_custom pageby="1" pgonly status /></span></a></li>
+    <li class="menu-item menu-item-docs"><a href="/articles/about" rel="section"><i class="fa fa-book fa-fw"></i>About</a></li>
   </ul>
 </nav>
 

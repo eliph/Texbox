@@ -4,15 +4,19 @@
          <p class="post-tags"># <txp:tru_tags_from_article break=" #" /></p>
        </txp:tru_tags_if_has_tags>
      </div>
-     <div class="post-nav">
-       <txp:link_to_prev wraptag="div" class="post-nav-item">
-          <i class="fa fa-chevron-left"></i> <txp:title />
-       </txp:link_to_prev>
-       <div class="post-nav-item">
-          <txp:link_to_next>
-             <txp:title /> <i class="fa fa-chevron-right"></i>
-          </txp:link_to_next>
+       <div class="post-nav">
+         <txp:link_to_prev wraptag="div" class="post-nav-item">
+            <i class="fa fa-chevron-left"></i> <txp:title />
+         </txp:link_to_prev>
+         <div class="post-nav-item">
+            <txp:link_to_next>
+               <txp:if_article_category name="about">
+               <txp:else />
+                  <txp:title /> <i class="fa fa-chevron-right"></i>
+               </txp:if_article_category>
+            </txp:link_to_next>
+         </div>
        </div>
-     </div>
    </footer>
 </article>
+
