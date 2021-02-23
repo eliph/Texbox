@@ -25,9 +25,9 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/css/all.min.css">
 
-    <!-- CSS
+  <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <txp:css format="link" media="" name="next" />
+  <txp:css format="link" media="" name="main" />
   <txp:css format="link" media="" name="texbox" />
 
   <!-- Javascript
