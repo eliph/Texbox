@@ -29,12 +29,14 @@
      </h1><hr />
    </header>
 
-   <txp:category_list children="0" wraptag="" break="" sort="name">
+   <txp:category_list children="0" exclude="about" wraptag="" break="" sort="name">
    <txp:variable name="cat-has-article"><txp:article_custom category='<txp:category />' pageby="1" pgonly status /></txp:variable>
       <txp:if_variable name="cat-has-article" value="0">
-      <txp:else />
-      <h2><txp:category title="1" link="1" /></h2>
+      <h2><txp:category title="1" link="0" class="category-list-item" /></h2>
+      <txp:category_list parent='<txp:category />' exclude='<txp:category />' wraptag="ul" break="" class="subcat_list" sort="name">
+         <txp:category title="1" link="1" wraptag="li" class="category-list-item" />
       </txp:category_list>
+      <txp:else />
    </txp:if_variable>
    </txp:category_list>
 
