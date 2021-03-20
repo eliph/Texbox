@@ -12,7 +12,7 @@
          <txp:category title="1" />
       </h1>
    </header>
-   <txp:output_form form="article-archive" />
+   </txp:output_form form="article-archive" />
 
       </div>
    </div>
@@ -30,13 +30,15 @@
    </header>
 
    <txp:category_list children="0" exclude="about" wraptag="" break="" sort="name">
-   <txp:variable name="cat-has-article"><txp:article_custom category='<txp:category />' pageby="1" pgonly status /></txp:variable>
-      <txp:if_variable name="cat-has-article" value="0">
-      <h2><txp:category title="1" link="0" class="category-list-item" /></h2>
-      <txp:category_list parent='<txp:category />' exclude='<txp:category />' wraptag="ul" break="" class="subcat_list" sort="name">
-         <txp:category title="1" link="1" wraptag="li" class="category-list-item" />
-      </txp:category_list>
+   <txp:variable name="article_count" value='<txp:article_custom category='<txp:category />' pageby="1" pgonly />' />
+      <txp:if_variable name="article_count" value="0">
       <txp:else />
+      <h2><txp:category title="1" link="0" class="category-list-item" /></h2>
+      <div class="category-all">
+      <txp:category_list parent='<txp:category />' exclude='<txp:category />' wraptag="ul" break="" class="category-list" sort="name">
+         <li><txp:category title="1" link="1" wraptag="" class="category-list-item" /> <span class="category-list-count">(<txp:article_custom pgonly pageby="1" section="articles" category='<txp:category />' />)</span></li>
+      </txp:category_list>
+      </div>
    </txp:if_variable>
    </txp:category_list>
 
