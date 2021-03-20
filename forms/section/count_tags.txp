@@ -9,4 +9,3 @@
     echo count(array_unique(explode(",", $ri)))-1;
   </txp:php>
 </section>
-
