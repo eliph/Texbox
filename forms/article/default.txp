@@ -1,0 +1,22 @@
+<div class="main-inner post posts-expand">
+
+<txp:article_custom fields="year(posted)" exclude section="about" limit="99" wraptag=" " break="" sort="Posted desc" >
+
+<div class="post-block">
+<txp:output_form form="article-head" />
+<txp:excerpt />
+
+   <div class="post-body" itemprop="articleBody">
+       <!--noindex-->
+         <div class="post-button">
+           <a class="btn" href="<txp:permlink />" rel="contents">
+             Read more &raquo;
+           </a>
+         </div>
+       <!--/noindex-->
+   </div>
+
+</div> <!-- post-block -->
+
+</txp:article_custom>
+</div> <!-- inner post posts-expand -->

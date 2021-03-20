@@ -1,0 +1,12 @@
+<section id="count_tags">
+  <txp:php>
+    $q[] = 'select keywords from textpattern where 1 = 1';
+    $rs = getRows(join(' ', $q));
+    $ri = "";
+    foreach($rs AS $r) {
+       $ri = implode("", $r) . "," . $ri;
+    }
+    echo count(array_unique(explode(",", $ri)))-1;
+  </txp:php>
+</section>
+

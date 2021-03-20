@@ -1,0 +1,62 @@
+<txp:output_form form="header" />
+<txp:output_form form="header-left" />
+
+<txp:tru_tags_if_tag_search>
+
+<div class="main-inner archive posts-collapse">
+   <div class="post-block">
+      <div class="post-content">
+
+   <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">
+         <txp:tru_tags_tag_parameter />
+      </h1>
+   </header>
+
+<txp:article_custom keywords='<txp:tru_tags_tag_parameter />' fields="year(posted)" limit="99" wraptag=" " break="" sort="Posted desc" >
+   <txp:if_different test='<txp:posted format="%Y" />' >
+      <div class="collection-year">
+         <span class="collection-header"><txp:posted format="%Y" /></span>
+      </div>
+   </txp:if_different>
+
+   <article itemscope itemtype="http://schema.org/Article">
+      <header class="post-header">
+      <div class="post-meta-container">
+        <time itemprop="dateCreated"
+              datetime="<txp:posted format="%Y-%m-%dT%T" />"
+              content="<txp:posted format="%Y-%m-%dT%T" />">
+          <txp:posted format="%m-%d" />
+        </time>
+      </div>
+      <div class="post-title">
+          <a class="post-title-link" href="<txp:permlink />" itemprop="url">
+            <span itemprop="name"><txp:title /></span>
+          </a>
+      </div>
+      </header>
+   </article>
+</txp:article_custom>
+
+      </div>
+   </div>
+</div>
+
+<txp:else />
+
+<div class="main-inner post posts-expand">
+<div class="post-block">
+
+   <header class="post-header">
+     <h1 class="post-title" itemprop="name headline">
+        <txp:section title="1" />
+     </h1><hr />
+   </header>
+   <txp:tru_tags_handler listform="article-list-titles" wraptag="" break="&nbsp;&nbsp;" limit="100" />
+
+</div> <!-- inner post posts-expand -->
+</div> <!-- post-block -->
+
+</txp:tru_tags_if_tag_search>
+
+<txp:output_form form="footer" />

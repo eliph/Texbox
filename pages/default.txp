@@ -1,0 +1,6 @@
+<txp:output_form form="header" />
+<txp:output_form form="header-left" />
+
+<txp:output_form form="default" />
+
+<txp:output_form form="footer" />

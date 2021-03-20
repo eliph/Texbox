@@ -1,0 +1,8 @@
+<section id="contents">
+  <txp:soo_toc <txp:if_yield name="levels">level='<txp:yield name="levels" />'</txp:if_yield> 
+               <txp:if_yield name="wrap">wraptag='<txp:yield name="wrap" />'</txp:if_yield>
+               break="li"
+               wraptag="ol"
+               class="nav"
+ />
+</section>

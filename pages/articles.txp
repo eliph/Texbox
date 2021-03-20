@@ -1,0 +1,48 @@
+<txp:output_form form="header" />
+<txp:output_form form="header-left" />
+
+<div class="main-inner post posts-expand">
+<div class="post-block">
+
+<txp:if_individual_article>
+
+<txp:output_form form="article-head" />
+<div class="post-body" itemprop="articleBody">
+    <txp:excerpt />
+    <txp:body />
+    <txp:output_form form="comments_display" />
+</div> <!-- post-body -->
+<txp:output_form form="article-foot" />
+
+<txp:else />
+
+<txp:if_section name="about">
+    <txp:article_custom section='<txp:section />' form="article_listing" />
+<txp:else />
+
+<div class="post-content">
+   <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">
+         <txp:section title="1" />
+      </h1><hr />
+   </header>
+   <txp:category_list children="0" wraptag="" break="" sort="name">
+      <txp:category_list parent='<txp:category />' exclude='<txp:category />' wraptag="" break="" class="subcat_list" sort="name">
+         <h4><txp:category title="1" link="0" /></h4>
+         <txp:article_custom category='<txp:category />' sort="Title asc" break="br" limit="100">
+         <txp:permlink>
+            <txp:title />
+         </txp:permlink>
+         </txp:article_custom>
+      </txp:category_list>
+   </txp:category_list>
+</div> <!-- post-content -->
+
+</txp:if_section>
+
+</txp:if_individual_article>
+
+</div> <!-- post-block -->
+</div> <!-- inner post posts-expand -->
+
+<txp:output_form form="footer" />

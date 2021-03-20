@@ -1,0 +1,17 @@
+<txp:output_form form="header" />
+<txp:output_form form="header-left" />
+
+<div class="main-inner post posts-collapse">
+<div class="post-block">
+   <header class="post-header" style="text-align: center">
+     <h1 style="font-size: 1.8em; font-weight: normal; margin: initial; overflow-wrap: break-word;" itemprop="name headline">
+        <txp:section title="1" />
+     </h1><hr />
+   </header>
+   <div class="post-content">
+      <txp:output_form form="article-archive" />
+   </div>
+</div>
+</div>
+
+<txp:output_form form="footer" />
