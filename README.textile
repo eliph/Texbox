@@ -31,3 +31,5 @@ h2. Limitations
 h2. Changelog
 
 * *v0.1* – Initial release
+* *v0.2* – added mobile display, table of contents, counts, prev/next tags, design improvements
+
