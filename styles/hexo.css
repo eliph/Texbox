@@ -45,4 +45,3 @@ $('a.external').on('click', function (e)
   }
 
   .search-pop-overlay, .sidebar-nav { display: none; }
-  .sidebar-panel { display: block; }
