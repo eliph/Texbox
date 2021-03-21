@@ -10,8 +10,10 @@ Texbox requires Textpattern v. 4.8.2 or higher, and can be installed as follows:
 # Go to "Presentation › Themes":https://docs.textpattern.com/administration/themes-panel and import the Texbox theme from the drop-down menue.
 # Go to "Presentation › Sections":https://docs.textpattern.com/administration/sections-panel and switch the theme used to "Texbox".
 # Go to "Admin › Preferences":https://docs.textpattern.com/administration/preferences-panel and set @Article URL pattern@ to @/section/title@.
-# Go to "Presentation › Sections":https://docs.textpattern.com/administration/sections-panel, and create the sections @categories@, @tag@ and @timeline@. Then link them to the respective pages @categories@, @tags@ and @archive@. Also link the @articles@ section to the @articles@ page. Articles in optional sections, such as @about@ may be linked to the to the @articles@ page also, and will be displayed, but are not counted or displayed as regular articles.
-# Go to "Admin › Plugins":https://docs.textpattern.com/administration/plugins-panel and install the "true_tags plugin v. 3.9.2":https://forum.textpattern.com/viewtopic.php?pid=324007#p324007. Then activate the plugin.
+# Go to "Presentation › Sections":https://docs.textpattern.com/administration/sections-panel, and create the sections @categories@, @tag@ and @timeline@. Then link them to the respective pages @categories@, @tags@ and @archive@. Also make sure that the @articles@ section has been linked to the @articles@ page automatically. 
+# Articles in optional sections, such as @about@ may be linked to the to the @articles@ page also, and will be displayed, but are not counted or displayed as regular articles.
+# On install of Textpattern a dummy article #1 will be automatically installed. Override or delete this article, and also its associated catetories and comment.
+# Go to "Admin › Plugins":https://docs.textpattern.com/administration/plugins-panel, and install the "true_tags plugin v. 3.9.2":https://forum.textpattern.com/viewtopic.php?pid=324007#p324007. Then activate the plugin.
 
 h2. Licence
 
