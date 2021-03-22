@@ -44,7 +44,7 @@
     <li class="menu-item menu-item-home"><a href="<txp:site_url />" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li>
     <li class="menu-item menu-item-tags"><a href="<txp:site_url />tag/" rel="section"><i class="fa fa-tags fa-fw"></i><txp:section name="tag" title="1" />&nbsp;<span class="badge"><txp::count_tags /></span></a></li>
     <li class="menu-item menu-item-categories"><a href="<txp:site_url />categories/" rel="section"><i class="fa fa-th fa-fw"></i><txp:section name="categories" title="1" />&nbsp;<span class="badge"><txp:variable name="cat_count" /></span></a></li>
-    <li class="menu-item menu-item-archives"><a href="<txp:site_url />timeline/" rel="section"><i class="fa fa-archive fa-fw"></i><txp:section name="timeline" title="1" />&nbsp;<span class="badge"><txp:article_custom pageby="1" exclude section="about" pgonly /></span></a></li>
+    <li class="menu-item menu-item-archives"><a href="<txp:site_url />timeline/" rel="section"><i class="fa fa-archive fa-fw"></i><txp:section name="timeline" title="1" />&nbsp;<span class="badge"><txp:article_custom section="articles" pageby="1" pgonly /></span></a></li>
     <li class="menu-item menu-item-docs"><a href="<txp:site_url />about/" rel="section"><i class="fa fa-book fa-fw"></i><txp:section name="about" title="1" /></a></li>
   </ul>
 </nav>
@@ -103,19 +103,19 @@
    <nav class="site-state">
       <div class="site-state-item site-state-posts">
          <a href="<txp:site_url />timeline/">
-         <span class="site-state-item-count"><txp:article_custom pageby="1" exclude section="about" pgonly /></span>
-         <span class="site-state-item-name">posts</span>
+         <span class="site-state-item-count"><txp:article_custom section="articles" pageby="1" pgonly /></span>
+         <span class="site-state-item-name"><txp:section name="timeline" title="1" /></span>
          </a>
       </div>
       <div class="site-state-item site-state-categories">
          <a href="<txp:site_url />categories/">
          <span class="site-state-item-count"><txp:variable name="cat_count" /></span>
-         <span class="site-state-item-name">categories</span></a>
+         <span class="site-state-item-name"><txp:section name="categories" title="1" /></span></a>
       </div>
       <div class="site-state-item site-state-tags">
          <a href="<txp:site_url />tag/">
          <span class="site-state-item-count"><txp::count_tags /></span>
-         <span class="site-state-item-name">Tags</span></a>
+         <span class="site-state-item-name"><txp:section name="tag" title="1" /></span></a>
       </div>
    </nav>
    </div><!-- site-state-wrap site-overview-item animated -->

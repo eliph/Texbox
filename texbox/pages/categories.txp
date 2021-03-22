@@ -29,7 +29,7 @@
      </h1><hr />
    </header>
 
-   <txp:category_list children="0" exclude="about" wraptag="" break="" sort="name">
+   <txp:category_list children="0" wraptag="" break="" sort="name">
    <txp:variable name="article_count" value='<txp:article_custom category='<txp:category />' pageby="1" pgonly />' />
       <txp:if_variable name="article_count" value="0">
       <txp:else />
