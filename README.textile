@@ -37,5 +37,10 @@ h2. Limitations
 h2. Changelog
 
 * *v0.1* – Initial release
-* *v0.2* – added mobile display, table of contents, counts, prev/next tags, design improvements
+* *v0.2* 
+** added UI for mobile devices
+** a table of contents will be generated when header tags contain IDs (see "PHP-textile issue #213":https://github.com/textile/php-textile/issues/213)
+** the main menu now has counts for articles, tags, and categories
+** prev/next tags added at the article footers
+** various design improvements
 
