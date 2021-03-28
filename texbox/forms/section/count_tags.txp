@@ -1,6 +1,6 @@
 <section id="count_tags">
   <txp:php>
-    $q[] = 'select keywords from textpattern where 1 = 1';
+    $q[] = 'select keywords from textpattern where 1 = 1 AND STATUS = "4"';
     $rs = getRows(join(' ', $q));
     $ri = "";
     foreach($rs AS $r) {
