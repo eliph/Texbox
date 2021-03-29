@@ -1,4 +1,7 @@
   <footer class="post-footer">
+
+<hr />
+
     <div class="post-tags">
       <txp:tru_tags_if_has_tags>
         <p class="post-tags"># <txp:tru_tags_from_article break=" #" /></p>
