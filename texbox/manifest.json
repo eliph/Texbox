@@ -2,7 +2,7 @@
     "title": "Texbox",
     "version": "0.2",
     "description": "A NexT theme port for Textpattern CMS",
-    "author": "ax",
+    "author": "eliph",
     "author_uri": "https://github.com/eliph/Texbox",
     "txp-type": "textpattern-theme"
 }
