@@ -6,13 +6,14 @@ h2. Installation
 
 Texbox requires Textpattern v. 4.8.2 or higher, and can be installed as follows: 
 
+# "Install Textpattern":https://docs.textpattern.com/installation/ and chose the "zero" theme during install.
+# After installation of Textpattern, the dummy article #1 than has been created automatically ("Welcome to your site") can be overwritten, and also its associated categories and the comment (by "Donald Swain").
 # Grab the current "release file":https://github.com/eliph/Texbox/releases/, unzip and place the entire @texbox@ folder into the @themes@ folder of your textpattern directory.
 # Go to "Presentation › Themes":https://docs.textpattern.com/administration/themes-panel and import the Texbox theme from the drop-down menue.
 # Go to "Presentation › Sections":https://docs.textpattern.com/administration/sections-panel and switch the theme used to "Texbox".
 # Go to "Admin › Preferences":https://docs.textpattern.com/administration/preferences-panel and set @Article URL pattern@ to @/section/title@.
 # Go to "Presentation › Sections":https://docs.textpattern.com/administration/sections-panel, and create the sections @categories@, @tag@ and @timeline@. Then link them to the respective pages @categories@, @tags@ and @archive@. Also make sure that the @articles@ section has been linked to the @articles@ page automatically. 
 # Articles in optionally created sections, such as @about@, may be linked to the to the @articles@ page also, and then will be displayed with the section. They will not not counted or displayed as regular articles.
-# On install of Textpattern, a dummy article #1 will be automatically installed ("Welcome to your site"). Overwrite or delete that article, and also its associated categories and comment (by "Donald Swain").
 # Go to "Admin › Plugins":https://docs.textpattern.com/administration/plugins-panel, and install the following plugins:
 ## "true_tags plugin v. 3.9.2":https://forum.textpattern.com/viewtopic.php?pid=324007#p324007.
 ## "soo_toc table of contents generator":http://ipsedixit.net/txp/3/soo_toc
