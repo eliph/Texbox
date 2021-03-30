@@ -6,14 +6,12 @@
 <div class="main-inner archive posts-collapse">
    <div class="post-block">
       <div class="post-content">
-
-   <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">
-         <txp:category title="1" />
-      </h1>
-   </header>
-   <txp:output_form form="article-archive" />
-
+         <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">
+               <txp:category title="1" />
+            </h1>
+         </header>
+         <txp:output_form form="article_listing" />
       </div>
    </div>
 </div>
