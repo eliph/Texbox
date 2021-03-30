@@ -14,11 +14,9 @@ Texbox requires Textpattern v. 4.8.2 or higher, and can be installed as follows:
 # Then go to @Admin › Preferences@ and set @Article URL pattern@ to @/section/title@.
 # Then go to @Presentation › Sections@, and create the sections @categories@, @tag@ and @timeline@. Then link them to the respective pages @categories@, @tags@ and @archive@. Also make sure that the @articles@ section has been linked to the @articles@ page automatically. 
 # Single articles in other sections, for example as @about@, can be linked to the to the @articles@ page also, and then will be displayed with the section. They will not not counted or displayed as regular articles.
-# Go to "Admin › Plugins":https://docs.textpattern.com/administration/plugins-panel, and install the following plugins:
+# Go to "Admin › Plugins":https://docs.textpattern.com/administration/plugins-panel, and install and activate the following plugins:
 ## "true_tags plugin v. 3.9.2":https://forum.textpattern.com/viewtopic.php?pid=324007#p324007.
 ## "soo_toc table of contents generator":http://ipsedixit.net/txp/3/soo_toc
-
-Then activate the plugins.
 
 h2. Licence
 
