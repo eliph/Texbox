@@ -9,6 +9,7 @@
      </h1><hr />
    </header>
    <div class="post-content">
+section:<txp:section title=1 />
       <txp:output_form form="article_listing" />
    </div>
 </div>

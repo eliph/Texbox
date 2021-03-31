@@ -54,8 +54,8 @@
    </header>
    <txp:tru_tags_handler listform="article-list-titles" wraptag="" break="&nbsp;&nbsp;" limit="100" />
 
-</div> <!-- inner post posts-expand -->
 </div> <!-- post-block -->
+</div> <!-- inner post posts-expand -->
 
 </txp:tru_tags_if_tag_search>
 
