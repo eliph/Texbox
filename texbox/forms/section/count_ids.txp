@@ -1,6 +1,8 @@
-<txp:php>
-    $pattern = '/<h(\d)[^>]+?id\s*=\s*"([\w-]+)"[^>]*>(.+?)<\\/h\\1/';
-    preg_match_all($pattern, $thisarticle['body'], $headings, PREG_SET_ORDER);
-    $result = number_format(count($headings,1),0);
-    echo count($headings,1);
-</txp:php>
+<section id="count_ids">
+   <txp:php>
+      $pattern = '/<h(\d)[^>]+?id\s*=\s*"([\w-]+)"[^>]*>(.+?)<\\/h\\1/';
+      preg_match_all($pattern, $thisarticle['body'], $headings, PREG_SET_ORDER);
+      $result = number_format(count($headings,1),0);
+      echo count($headings,1);
+   </txp:php>
+</section>
