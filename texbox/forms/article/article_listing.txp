@@ -1,5 +1,3 @@
-section:<txp:section title=1 />
-
 <txp:article_custom section="articles" limit="99" sort="Posted desc" wraptag=" " >
    <txp:if_different test='<txp:posted format="%Y" />' >
       <div class="collection-year">
