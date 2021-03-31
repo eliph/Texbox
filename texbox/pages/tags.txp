@@ -13,7 +13,7 @@
       </h1>
    </header>
 
-<txp:article_custom keywords='<txp:tru_tags_tag_parameter />' fields="year(posted)" limit="99" wraptag=" " break="" sort="Posted desc" >
+<txp:article_custom keywords='<txp:tru_tags_tag_parameter />' limit="99" wraptag=" " break="" sort="Posted desc" >
    <txp:if_different test='<txp:posted format="%Y" />' >
       <div class="collection-year">
          <span class="collection-header"><txp:posted format="%Y" /></span>
@@ -54,8 +54,8 @@
    </header>
    <txp:tru_tags_handler listform="article-list-titles" wraptag="" break="&nbsp;&nbsp;" limit="100" />
 
-</div> <!-- inner post posts-expand -->
 </div> <!-- post-block -->
+</div> <!-- inner post posts-expand -->
 
 </txp:tru_tags_if_tag_search>
 
