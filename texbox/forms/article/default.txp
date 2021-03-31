@@ -1,11 +1,8 @@
 <div class="main-inner post posts-expand">
-
-<txp:article_custom section="articles" fields="year(posted)" limit="99" wraptag=" " break="" sort="Posted desc" >
-
+<txp:article_custom section="articles" limit="99" sort="Posted desc" wraptag=" " >
 <div class="post-block">
 <txp:output_form form="article-head" />
 <txp:excerpt />
-
    <div class="post-body" itemprop="articleBody">
        <!--noindex-->
          <div class="post-button">
@@ -14,9 +11,7 @@
            </a>
          </div>
        <!--/noindex-->
-   </div>
-
-</div> <!-- post-block -->
-
+   </div> <!-- post-body -->
+</div> <!-- /.post-block -->
 </txp:article_custom>
-</div> <!-- inner post posts-expand -->
+</div> <!-- /.main-inner post posts-expand -->
