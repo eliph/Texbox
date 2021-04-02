@@ -34,10 +34,10 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder"><a href="https://github.com/eliph/Texbox">Texbox</a></span>
+  <span class="author" itemprop="copyrightHolder">dp-IPH 2021</span>
 </div>
 
-<div class="powered-by">Powered by <a href="https://textpattern.com/" class="theme-link" rel="noopener" target="_blank">Textpattern</a> & <a href="https://theme-next.js.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a><br /></div>
+<div class="powered-by">Powered by <a href="https://textpattern.com/" class="theme-link" rel="noopener" target="_blank">Textpattern</a> & <a href="https://theme-next.js.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a><br /><txp:if_section name="impressum"><txp:else /><a href="<txp:site_url />impressum">Impressum</a></txp:if_section><br /></div>
 
     </div>
   </footer>

@@ -1,0 +1,6 @@
+<section id='<txp:section />'>
+    <h2>
+        <txp:section title />
+    </h2>
+    <+>
+</section>

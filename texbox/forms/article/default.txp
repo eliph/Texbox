@@ -1,6 +1,4 @@
-<div class="main-inner post posts-expand">
-<txp:article_custom section="articles" limit="99" sort="Posted desc" wraptag=" " >
-<div class="post-block">
+<article itemscope itemtype="http://schema.org/Article" class="post-block">
 <txp:output_form form="article-head" />
 <txp:excerpt />
    <div class="post-body" itemprop="articleBody">
@@ -12,6 +10,4 @@
          </div>
        <!--/noindex-->
    </div> <!-- post-body -->
-</div> <!-- /.post-block -->
-</txp:article_custom>
-</div> <!-- /.main-inner post posts-expand -->
+</article>

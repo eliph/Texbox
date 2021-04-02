@@ -6,6 +6,7 @@
 
 <txp:if_individual_article>
 
+<article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
 <txp:output_form form="article-head" />
 <div class="post-body" itemprop="articleBody">
     <txp:excerpt />
@@ -13,6 +14,7 @@
     <txp:output_form form="comments_display" />
 </div> <!-- post-body -->
 <txp:output_form form="article-foot" />
+</article>
 
 <txp:else />
 
@@ -49,7 +51,7 @@
 
 </txp:if_section>
 
-</txp:if_individual_article>
+    </txp:if_individual_article>
 
 </div> <!-- post-block -->
 </div> <!-- inner post posts-expand -->

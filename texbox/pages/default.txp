@@ -1,6 +1,22 @@
 <txp:output_form form="header" />
 <txp:output_form form="header-left" />
 
-<txp:output_form form="default" />
+<txp:if_search>
+    <txp:output_form form="search_display" />
+<txp:else />
+    <div class="main-inner post posts-expand">
+    <txp:article />
+    <txp:evaluate test="newer,older">
+        <nav class="post-nav" aria-label="<txp:text item="page_nav" />">
+            <txp:older rel="prev" title="older" >
+               <i class="fa fa-chevron-left"></i> <txp:text item="older" class="post-nav-item" />
+            </txp:older>
+            <txp:newer rel="prev" title="newer" >
+               <txp:text item="newer" class="post-nav-item" /> <i class="fa fa-chevron-right"></i>
+            </txp:newer>
+        </nav>
+    </txp:evaluate>
+    </div> <!-- /.main-inner post posts-expand -->
+</txp:if_search>
 
 <txp:output_form form="footer" />

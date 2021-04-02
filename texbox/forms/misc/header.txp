@@ -8,17 +8,45 @@
   <title>
      <txp:page_title />
   </title>
-  <meta name="description" content="Texbox theme">
-  <meta name="author" content="Texbox author">
+  <meta name="description" content="OMERODOC">
+  <meta name="author" content="dp-IPH">
   <meta name="generator" content="Textpattern CMS">
+
+  <txp:if_search>
+    <meta name="robots" content="none">
+  <txp:else />
+    <txp:if_author>
+      <meta name="robots" content="noindex, follow">
+    <txp:else />
+      <txp:meta_description />
+        <txp:if_category>
+          <meta name="robots" content="noindex, follow">
+        <txp:else />
+          <txp:variable name="page" value='<txp:page_url type="pg" />' />
+          <txp:if_variable name="page" value="1">
+          <meta name="robots" content="index, follow">
+          <link rel="canonical" href="<txp:site_url />">
+          <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "headline": "<txp:site_name escape="json" />",
+              <txp:if_description>"description": "<txp:meta_description format="" escape="json" />",</txp:if_description>
+              "url": "<txp:site_url escape="json" />"
+            }
+          </script>
+        <txp:else />
+          <meta name="robots" content="noindex, follow">
+        </txp:if_variable>
+        <txp:variable name="front-page" value="1" />
+      </txp:if_category>
+    </txp:if_author>
+  </txp:if_search>
 
   <!-- Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <meta name="google-site-verification" content="UIvPq4xjVnU-AokHJkRkV_gqyjbeLiDspIvVN51dcEA" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -26,14 +54,12 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <txp:css format="link" media="" name="default" />
-  <txp:css format="link" media="" name="hexo" />
+  <txp:css format="link" name="default" />
+  <txp:css format="link" name="hexo" />
 
-  <!-- Hexo CSS script
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"texbox-blog.de","root":"/","images":"/images","scheme":"Gemini","version":"8.2.1","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}};
+    var CONFIG = {"hostname":"tuxcomp.org","root":"/","images":"/images","scheme":"Gemini","version":"8.2.1","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}};
   </script>
 
   <!-- Javascript
