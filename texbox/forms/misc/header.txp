@@ -8,8 +8,7 @@
   <title>
      <txp:page_title />
   </title>
-  <meta name="description" content="OMERODOC">
-  <meta name="author" content="dp-IPH">
+  <meta name="description" content="<txp:site_name />">
   <meta name="generator" content="Textpattern CMS">
 
   <txp:if_search>
@@ -55,7 +54,7 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <txp:css format="link" name="default" />
-  <txp:css format="link" name="hexo" />
+  <txp:css format="link" name="texbox" />
 
   <script class="hexo-configurations">
     var NexT = window.NexT || {};

@@ -1563,8 +1563,8 @@ pre code {
   font-size: 0.875em;
 }
 .post-toc ol {
-  /* list-style: none;   */
-  padding: 0 2px 5px 30px;
+  list-style: none;
+  padding: 0 2px 5px 10px;
   margin: 0;
   text-align: left;
 }

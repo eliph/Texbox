@@ -94,8 +94,6 @@
 </txp:if_variable>
 </txp:if_individual_article>
    <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-   <txp:hide><p class="site-author-name" itemprop="name">Autor: dp-IPH</p>
-   <div class="site-description" itemprop="description">Oh Mero</div></txp:hide>
    <p><a href="https://github.com/eliph/Texbox"><txp:thumbnail id="1" /></a></p>
    </div><!-- site-author site-overview-item animated -->
 

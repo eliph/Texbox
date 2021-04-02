@@ -2,8 +2,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="eliph">
-      <meta itemprop="description" content="">
+      <meta itemprop="name" content="<txp:site_name />">
+      <meta itemprop="description" content="<txp:site_slogan />">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
